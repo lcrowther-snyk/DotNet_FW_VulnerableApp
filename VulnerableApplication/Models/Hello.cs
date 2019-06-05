@@ -11,7 +11,7 @@ namespace VulnerableApplication.Models
         {
             Console.WriteLine("Hello!");
         }
-    public string Hello() {
+    public string Hi() {
     return "this is against the rules.";
     }
         

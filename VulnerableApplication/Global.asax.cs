@@ -10,6 +10,8 @@ namespace VulnerableApplication
 {
     public class MvcApplication : System.Web.HttpApplication
     {
+        public string Password = "abcdef";
+    
         protected void Application_Start()
         {
             AreaRegistration.RegisterAllAreas();
@@ -19,5 +21,7 @@ namespace VulnerableApplication
         }
         
         public string ChangePassword { get; set; }
+        
+        
     }
 }

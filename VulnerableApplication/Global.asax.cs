@@ -20,6 +20,7 @@ namespace VulnerableApplication
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
         
+        // Danger
         public string ChangePassword { get; set; }
         
         

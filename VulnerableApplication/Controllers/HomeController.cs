@@ -8,6 +8,8 @@ namespace VulnerableApplication.Controllers
 {
     public class HomeController : Controller
     {
+        public static string SonarPassword = "foo";
+    
         public ActionResult Index()
         {
             return View();

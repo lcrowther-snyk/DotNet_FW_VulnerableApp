@@ -9,6 +9,7 @@ namespace VulnerableApplication.Controllers
     public class HomeController : Controller
     {
         public static string SonarPassword = "foo";
+        public static string GitHubPassword = "bar";
     
         public ActionResult Index()
         {

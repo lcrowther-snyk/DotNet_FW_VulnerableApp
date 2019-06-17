@@ -31,7 +31,7 @@ namespace VulnerableApplication.Controllers
         return "this is not on the coding rules.";
         }
         
-        public static string ChangePassword = "PassWord917231";
+        private static string ChangePassword = "PassWord917231";
 
     }
 }

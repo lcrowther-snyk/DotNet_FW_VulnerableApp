@@ -17,5 +17,7 @@ namespace VulnerableApplication
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+        
+        public const string Password = "abc";
     }
 }

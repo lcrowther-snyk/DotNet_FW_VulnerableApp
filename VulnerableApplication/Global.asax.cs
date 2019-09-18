@@ -18,4 +18,6 @@ namespace VulnerableApplication
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
     }
+    
+    public const string Password = "abc";
 }

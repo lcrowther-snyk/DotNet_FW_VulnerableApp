@@ -32,3 +32,10 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+- task: SnykSecurityScan@1
+  inputs:
+    serviceConnectionEndpoint: 'my snyk'
+    testType: 'app'
+    severityThreshold: 'medium'
+    monitorWhen: 'always'
+    failOnIssues: false
